@@ -1,0 +1,36 @@
+[19-Sep-2019 10:37:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\formatting.php:5535) in C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php on line 1251
+[19-Sep-2019 10:37:16 UTC] PHP Stack trace:
+[19-Sep-2019 10:37:16 UTC] PHP   1. {main}() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\themes.php:0
+[19-Sep-2019 10:37:16 UTC] PHP   2. require_once() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\themes.php:10
+[19-Sep-2019 10:37:16 UTC] PHP   3. do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\admin.php:253
+[19-Sep-2019 10:37:16 UTC] PHP   4. WP_Hook->do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\plugin.php:465
+[19-Sep-2019 10:37:16 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:310
+[19-Sep-2019 10:37:16 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:286
+[19-Sep-2019 10:37:16 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[19-Sep-2019 10:37:16 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:818
+[19-Sep-2019 10:37:16 UTC] PHP   9. activate_plugin() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:957
+[19-Sep-2019 10:37:16 UTC] PHP  10. do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\includes\plugin.php:672
+[19-Sep-2019 10:37:16 UTC] PHP  11. WP_Hook->do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\plugin.php:465
+[19-Sep-2019 10:37:16 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:310
+[19-Sep-2019 10:37:16 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:286
+[19-Sep-2019 10:37:16 UTC] PHP  14. wp_safe_redirect() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[19-Sep-2019 10:37:16 UTC] PHP  15. wp_redirect() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php:1356
+[19-Sep-2019 10:37:16 UTC] PHP  16. header() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php:1251
+[19-Sep-2019 10:37:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\formatting.php:5535) in C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php on line 1254
+[19-Sep-2019 10:37:16 UTC] PHP Stack trace:
+[19-Sep-2019 10:37:16 UTC] PHP   1. {main}() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\themes.php:0
+[19-Sep-2019 10:37:16 UTC] PHP   2. require_once() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\themes.php:10
+[19-Sep-2019 10:37:16 UTC] PHP   3. do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\admin.php:253
+[19-Sep-2019 10:37:16 UTC] PHP   4. WP_Hook->do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\plugin.php:465
+[19-Sep-2019 10:37:16 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:310
+[19-Sep-2019 10:37:16 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:286
+[19-Sep-2019 10:37:16 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[19-Sep-2019 10:37:16 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:818
+[19-Sep-2019 10:37:16 UTC] PHP   9. activate_plugin() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:957
+[19-Sep-2019 10:37:16 UTC] PHP  10. do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-admin\includes\plugin.php:672
+[19-Sep-2019 10:37:16 UTC] PHP  11. WP_Hook->do_action() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\plugin.php:465
+[19-Sep-2019 10:37:16 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:310
+[19-Sep-2019 10:37:16 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\class-wp-hook.php:286
+[19-Sep-2019 10:37:16 UTC] PHP  14. wp_safe_redirect() C:\Users\bishe\Local Sites\newtontest\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[19-Sep-2019 10:37:16 UTC] PHP  15. wp_redirect() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php:1356
+[19-Sep-2019 10:37:16 UTC] PHP  16. header() C:\Users\bishe\Local Sites\newtontest\app\public\wp-includes\pluggable.php:1254

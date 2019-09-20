@@ -1,0 +1,23 @@
+/* Mega New Style
+================================*/
+.mega-accordion h3 {
+    margin: 0;
+    padding-left: 20px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.mega-accordion .ac-style:focus {
+	outline: none;
+}
+
+.mega-accordion h3 span {
+    padding-right: 15px;
+}
+
+/* Accordion Pannel Description
+================================*/
+.mega-accordion .mega-panel {
+    padding: 15px 20px;
+    border: 1px solid #000;
+}
